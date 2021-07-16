@@ -12,7 +12,7 @@
   
   body {
     align-items: center;
-    background-color: #ffd54f;
+    background-color: #c7d4c7;
     display: flex;
     font-family: -apple-system, 
       BlinkMacSystemFont, 
@@ -58,6 +58,11 @@
   .emoji span {
     font-size: 4rem;
     padding: 0 .5rem;
+  }
+
+  #image {
+    width: 200px;
+    height: auto;
   }
   
   @media all and (max-width: 768px) {
