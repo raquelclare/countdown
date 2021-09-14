@@ -4,7 +4,7 @@
     hour = minute * 60,
     day = hour * 24;
 
-  let targetDate = "Aug 10, 2021 00:00:00",
+  let targetDate = "Oct 7, 2021 00:00:00",
     countDown = new Date(targetDate).getTime(),
     x = setInterval(function() {
       let now = new Date().getTime(),
@@ -24,10 +24,12 @@
       // When date is reached
       if (timeLeft < 0) {
         let headline = document.getElementById("headline"),
+          subtext = document.getElementById("subtext"),
           countdown = document.getElementById("countdown"),
           content = document.getElementById("content");
 
-        headline.innerText = "I get to see mi amor today";
+        headline.innerText = "Moving day!";
+        subtext.style.display = "none";
         countdown.style.display = "none";
         content.style.display = "block";
 
