@@ -4,7 +4,7 @@
     hour = minute * 60,
     day = hour * 24;
 
-  let targetDate = "Oct 7, 2021 00:00:00",
+  let targetDate = "Feb 14, 2024 00:00:00",
     countDown = new Date(targetDate).getTime(),
     x = setInterval(function() {
       let now = new Date().getTime(),
@@ -28,7 +28,7 @@
           countdown = document.getElementById("countdown"),
           content = document.getElementById("content");
 
-        headline.innerText = "Moving day!";
+        headline.innerText = "BFFs unite day!";
         subtext.style.display = "none";
         countdown.style.display = "none";
         content.style.display = "block";

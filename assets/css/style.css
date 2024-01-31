@@ -13,14 +13,14 @@ body {
 
 body {
   align-items: center;
-  background-color: #c7d4c7;
+  background-color: black;
   display: flex;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 .container {
-  color: #333;
+  color: whitesmoke;
   margin: 0 auto;
   text-align: center;
 }
@@ -29,6 +29,10 @@ h1, h2 {
   font-weight: normal;
   letter-spacing: 0.125rem;
   text-transform: uppercase;
+}
+
+h1 {
+  font-size: 8em;
 }
 
 li {
